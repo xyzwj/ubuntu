@@ -15,7 +15,6 @@ QT += multimedia
 
 # The .cpp file which was generated for your project. Feel free to hack it.
 SOURCES += \
-    qt-json/json.cpp \
     shuffler.cpp \
     main.cpp
 
@@ -27,8 +26,7 @@ include(qtquick2applicationviewer/qtquick2applicationviewer.pri)
 qtcAddDeployment()
 
 HEADERS += \
-    shuffler.h \
-    qt-json/json.h
+    shuffler.h
 
 OTHER_FILES += \
     qml/Shuffl0rz/TrackView.js

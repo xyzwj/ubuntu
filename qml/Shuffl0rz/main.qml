@@ -64,7 +64,7 @@ MainView {
             anchors.fill: parent
             onClicked: {
                 console.debug("button clicked");
-                Shuffler.channel("indie");
+                Shuffler.channel("media:tumblr");
             }
         }
     }
